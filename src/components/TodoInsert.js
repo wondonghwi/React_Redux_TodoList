@@ -2,7 +2,7 @@ import React, { useCallback, useRef, useState } from 'react';
 import '../scss/TodoInsert.scss';
 import { MdAdd } from "react-icons/all";
 
-const TodoInsert = ({onPlus}) => {
+const TodoInsert = ({onCreate}) => {
 
   const [text, setText] = useState('');
 
@@ -13,10 +13,10 @@ const TodoInsert = ({onPlus}) => {
   };
 
   const handlePlus = useCallback(() => {
-    onPlus(text);
+    onCreate(text);
     setText('');
     handleRef.current.focus();
-  }, [onPlus, text]);
+  }, [onCreate, text]);
 
   const handleKeyPress = useCallback((e) => {
     if (e.key === 'Enter') {

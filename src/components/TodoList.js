@@ -17,7 +17,7 @@ const TodoList = ({todos, onRemove, onToggle}) => {
         </div>
       </div>
     )
-  }, [todos]);
+  }, [onRemove, onToggle, todos]);
 
   return (
     <>
