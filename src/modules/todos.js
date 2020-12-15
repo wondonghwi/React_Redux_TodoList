@@ -39,6 +39,11 @@ const initialState = [
   {
     id: 3,
     text: 'mobX',
+    checked: true,
+  },
+  {
+    id: 4,
+    text: 'recoil',
     checked: false,
   },
 ];
