@@ -5,7 +5,7 @@ const ADD_TODO = 'todos/ADD_TODO';
 const REMOVE_TODO = 'todos/REMOVE_TODO';
 const TOGGLE_TODO = 'todos/TOGGLE_TODO';
 
-let nextId = 4;
+let nextId = 5;
 
 //액션 함수 선언
 export const addTodo = text => ({
