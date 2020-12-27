@@ -11,4 +11,4 @@
 
 ( Preview ) <br/>
 
-![](image/TodoList_Redux.PNG)
+![](img.png)
