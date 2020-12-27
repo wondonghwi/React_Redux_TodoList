@@ -1,5 +1,14 @@
-React-Redux를 사용하여 TodoList를 작성해보았습니다.
+# TodoList - React + React-Redux + SCSS
 
-기술스택 : React , Redux , Scss 
+## React-Redux를 사용하여 TodoList를 작성해보았습니다.
 
-click Link = https://wondonghwi.github.io/React_Redux_TodoList/
+# <기술스택>
+## React , ContextApi , StyleComponents
+
+### TodoList -> 생성 , 수정 , 삭제
+
+### [웹페이지 바로가기](https://wondonghwi.github.io/React_Redux_TodoList/)
+
+( Preview ) <br/>
+
+![](image/TodoList_Redux.PNG)
